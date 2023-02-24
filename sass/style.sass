@@ -1,0 +1,427 @@
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+html
+    font: 14px "DM Sans", sans-serif
+
+.container
+    width: 1150px
+    margin: 0 auto
+
+h2
+    font-size: 48px
+    line-height: 62px
+
+.wrapper > div
+    margin-bottom: 128px
+
+.button
+    display: inline-block
+    height: 56px
+    line-height: 56px
+    padding: 0 30px
+    background-color: #086CF9
+    color: #ffffff
+    text-decoration: none
+    border-radius: 4px
+
+.home
+    margin-top: 120px
+    background-image: url("../images/home/home.jpg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+
+.home__inner
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    height: calc(100vh - 120px)
+    text-align: center
+
+    h1
+        width: 971px
+        color: #ffffff
+        font-size: 56px
+        line-height: 73px
+
+    p
+        width: 870px
+        margin-top: 24px
+        margin-bottom: 54px
+        color: #ffffff
+        font-size: 16px
+        line-height: 25px
+
+.our__info
+    width: 1150px
+    margin-top: -227px
+    margin-left: auto
+    margin-right: auto
+    padding: 56px 88px
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    background-color: #fff
+    -webkit-box-shadow: 0 11px 35px rgba(0, 0, 0, 0.08)
+    box-shadow: 0 11px 35px rgba(0, 0, 0, 0.08)
+
+    .info
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        -webkit-box-pack: justify
+        -ms-flex-pack: justify
+        justify-content: space-between
+        width: 230px
+
+    .info__content
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        -webkit-box-pack: justify
+        -ms-flex-pack: justify
+        justify-content: space-between
+        -webkit-box-orient: vertical
+        -webkit-box-direction: normal
+        -ms-flex-direction: column
+        flex-direction: column
+
+        h4
+            font-size: 35px
+            line-height: 47px
+
+        span
+            font-size: 16px
+            line-height: 25px
+            color: #086CF9
+
+.future__inner
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+
+    .left
+        -webkit-box-flex: 1
+        -ms-flex-positive: 1
+        flex-grow: 1
+        -ms-flex-negative: 1
+        flex-shrink: 1
+        -ms-flex-preferred-size: auto
+        flex-basis: auto
+        padding-right: 40px
+
+    .future__title
+        margin-bottom: 24px
+
+    .future__text
+        width: 480px
+        margin-bottom: 16px
+        font-size: 16px
+        line-height: 25px
+
+    .future__caption
+        display: block
+        width: 490px
+        margin-bottom: 32px
+        font-size: 20px
+        line-height: 28px
+
+.future__image
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    width: 595px
+    height: 433px
+    background: url("../images/future/future_image.jpg") no-repeat center
+    background-size: cover
+    border-radius: 4px
+
+.course
+/*display: flex;
+/*justify-content: space-between;
+
+/*********
+
+.how_it_work
+    text-align: center
+
+    .caption
+        width: 425px
+        margin: 12px auto 48px
+
+.how_it_work__blocks
+    display: flex
+    justify-content: space-between
+
+.how_it_work__block
+    flex: 0 1 245px
+
+    h5
+        margin-bottom: 16px
+        margin-top: 24px
+
+.transform
+    width: 600px
+    height: 600px
+    background-color: #086CF9
+    margin: 0 auto
+
+    .child-1
+        width: 200px
+        height: 200px
+        background-color: blueviolet
+        transition: 1000ms
+        transform-origin: bottom right
+
+    &:hover .child-1
+        transform: translate(50px, 100px)
+        background-color: cadetblue
+
+    .child-2
+        width: 200px
+        height: 200px
+        background-color: chocolate
+
+/*******
+
+.how_it_work__block .geek
+    transition: all 1s ease
+
+    &:hover
+        transform: scale(1.2)
+
+/***************
+
+.courses
+    background-color: rgba(236, 244, 255, 1)
+    height: 1400px
+
+.container h2
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.caption
+    text-align: center
+    line-height: 155%
+    margin: 0 auto
+    width: 674px
+    height: 50px
+
+.course
+    width: 368px
+    height: 483px
+    background: #FFFFFF
+    border-radius: 6px
+    padding: 24px
+    margin-top: 50px
+
+.courses__blocks
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+.course__info_item
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 80px
+
+.course__title_and_price
+    display: flex
+    justify-content: space-between
+    line-height: 31px
+    margin-top: 20px
+    font-size: 24px
+
+    span
+        color: #086CF9
+        font-size: 24px
+
+.course__img
+    width: 320px
+    height: 208px
+
+.course__info
+    display: flex
+    justify-content: space-between
+    margin-top: 24px
+
+.course__info_avatar
+    background: url("../images/courses/course__user_1.jpg") no-repeat center
+    background-size: contain
+    height: 32px
+    width: 32px
+
+hr
+    color: rgba(233, 232, 232, 1)
+    margin-top: 24px
+
+.course__text
+    margin-top: 30px
+
+/***********
+
+.event__text p
+    text-align: center
+    margin: 0 auto
+    margin-top: 12px
+    color: rgba(68, 68, 68, 1)
+    width: 368px
+    height: 50px
+
+.event_top
+    margin-bottom: 30px
+
+.event__img
+    width: 368px
+    height: 390px
+    background: #FFFFFF
+    border-radius: 6px
+    margin-top: 50px
+    box-shadow: 0 12px 45px rgba(0, 0, 0, 0.08)
+
+.event_content
+    text-align: start
+    height: 52px
+    width: 267px
+    margin-top: 24px
+    line-height: 26px
+    font-size: 20px
+
+.events__blocks p
+    margin-left: 23px
+
+.event_block
+    display: flex
+    justify-content: left
+    margin-top: 40px
+
+    span
+        margin-left: 12px
+        color: rgba(85, 85, 85, 1)
+
+    img
+        margin-left: 24px
+
+.events__info
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+/*****
+
+.footer
+    margin-top: 128px
+    background-color: rgba(211, 229, 254, 1)
+    height: 421px
+    width: 1550px
+
+.footer__text
+    h3
+        padding-top: 60px
+        height: 39px
+        width: 148px
+        line-height: 39px
+        font-size: 30px
+
+    p
+        height: 75px
+        width: 360px
+        padding-top: 60px
+        font-size: 16px
+        color: rgba(85, 85, 85, 1)
+
+.footer__block
+    font-size: 30px
+    padding-top: 85px
+    line-height: 39px
+
+.footer__info
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 60px
+
+.block1
+    width: 400px
+    margin-bottom: 100px
+
+    h3
+        font-size: 30px
+
+    p
+        color: rgba(85, 85, 85, 1)
+        margin-top: 24px
+        margin-bottom: 32px
+
+    img
+        padding-top: 24px
+
+.block2
+    h3
+        font-size: 30px
+
+    width: 400px
+    margin-bottom: 127px
+    margin-left: 92px
+
+    p
+        margin-top: 16px
+
+.about
+    padding-top: 8px
+
+/*****
+
+.block3
+    h3
+        font-size: 30px
+
+    margin-bottom: 127px
+    margin-left: 92px
+
+    p
+        margin-top: 16px
+
+.about
+    padding-top: 8px
+
+/****
+
+.block4
+    h3
+        font-size: 30px
+
+    margin-bottom: 156px
+    margin-left: 92px
+
+    p
+        margin-top: 16px
